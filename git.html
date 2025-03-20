@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT PAGE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black; /* Dark background */
+            margin: 0;
+        }
+
+        .hyperlink-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            text-align: center;
+        }
+
+        .hyperlink {
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff00ff, #ffcc00, #00ffff, #ff00ff);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0.2) 10%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.2) 90%);
+            animation: glitter 2s infinite linear;
+        }
+
+        .hyperlink:hover {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+            transition: text-shadow 0.3s ease-in-out;
+        }
+
+        @keyframes glitter {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hyperlink-container">
+        <a class="hyperlink" href="https://github.com/MeenakshiIriventi" target="_blank">
+            WELCOME INTO MY WORLD OF CREATION !
+        </a>
+    </div>
+</body>
+</html>

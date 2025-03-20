@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: beige; /* Beige background */
+            margin: 0;
+        }
+
+        .hyperlink-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .hyperlink {
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            color: brown; /* Blue text color */
+        }
+
+        .hyperlink:hover {
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: text-shadow 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="hyperlink-container">
+        <a class="hyperlink" href="https://www.linkedin.com/in/meenakshi-iriventi-73a25b341/" onkeypress="if(event.key === 'Enter'){ window.location.href=this.value; }">
+            Hello Here!!
+        </a>
+    </div>
+</body>
+</html>
